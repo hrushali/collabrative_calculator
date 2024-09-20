@@ -1,8 +1,11 @@
-package cal;
+ public class sum {
+    public int sum1 (int a, int b){
+        return(a+b);
+    }
 
-public class sum {
     public static void main(String[] args){
-        System.out.println(10+20);
+        sum s=new sum();
+       s.sum1(10,20);
     }
     
 }
